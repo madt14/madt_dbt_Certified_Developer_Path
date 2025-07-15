@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: TIL_PORTFOLIO_PROJECTS # declaring the database to make sure I can access it as my target database could have been different
+    # not declaring schema because it is the same name as the name property
+    tables:
+      - name: customers
+      - name: orders
