@@ -22,7 +22,7 @@ completed_payments as (
   where payment_status <> 'fail'
   group by 1
 
-),
+) ,
 
 paid_orders as (
 
